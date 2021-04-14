@@ -12,7 +12,7 @@ public class NumericDisplay extends GameElement{
         
     }
     public void draw() {
-        
+        StdDraw.text(xPosition, yPosition, prefix + value);
     }
     public int getValue() {
         return value;
@@ -20,4 +20,5 @@ public class NumericDisplay extends GameElement{
     public void setValue(int value) {
         this.value = value;
     }
+
 }
